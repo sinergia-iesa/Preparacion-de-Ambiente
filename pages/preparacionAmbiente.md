@@ -276,6 +276,26 @@ class: prep-ambiente
 </div>
 
 ---
+layout: two-cols
+layoutClass: gap-10 items-center
+class: prep-ambiente
+---
+
+<div class="prep-eyebrow">VS Code</div>
+
+# Extensiones recomendadas
+
+- **Python** (Microsoft): soporte oficial del lenguaje, es la base para programar
+- **Error Lens**: muestra los errores y advertencias **en la misma línea** del código, no solo en la pestaña de problemas
+- **Error Gutters**: resalta a la izquierda **qué líneas** tienen error o advertencia, para ubicarlas rápido
+
+::right::
+
+<div class="flex justify-center">
+  <img src="/preparacion_ambiente/extensiones-recomendadas.png" class="prep-shot max-h-[360px]" />
+</div>
+
+---
 layout: center
 class: prep-ambiente prep-divider text-center
 ---
