@@ -85,6 +85,39 @@ body, .slidev-layout {
   margin-top: 0.4rem;
 }
 
+.prep-cover {
+  position: relative;
+  color: #0a3357;
+  /* layout: image (a diferencia de layout: cover) no centra el
+     contenido verticalmente por sí solo, así que lo hacemos aquí */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding-left: 4rem;
+}
+
+.prep-cover .prep-subtitle {
+  color: #3f6a94;
+}
+
+.prep-cover .prep-nav-hint {
+  color: rgba(10, 51, 87, 0.55);
+  cursor: pointer;
+}
+
+.prep-cover .prep-nav-hint:hover {
+  color: rgba(10, 51, 87, 0.85);
+}
+
+/* Los logos vienen en blanco (pensados para fondo oscuro); se invierten */
+/* a tono oscuro para que se vean bien sobre la portada clara.           */
+.prep-logos {
+  filter: invert(1);
+  opacity: 0.88;
+}
+
 .prep-step-badge {
   position: relative;
   display: inline-flex;

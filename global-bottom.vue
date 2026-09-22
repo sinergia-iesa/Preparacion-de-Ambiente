@@ -1,8 +1,5 @@
 <template>
-  <footer
-    class="prep-page-number"
-    :class="{ 'prep-page-number--light': $nav.currentPage === 1 }"
-  >
+  <footer class="prep-page-number">
     {{ $nav.currentPage }} / {{ $nav.total }}
   </footer>
 </template>
@@ -18,10 +15,5 @@
   color: rgba(0, 0, 0, 0.38);
   pointer-events: none;
   user-select: none;
-}
-
-/* En la portada el fondo es oscuro, así que el número debe ser claro */
-.prep-page-number--light {
-  color: rgba(255, 255, 255, 0.55);
 }
 </style>

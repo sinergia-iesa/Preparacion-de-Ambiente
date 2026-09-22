@@ -1,6 +1,8 @@
 ---
 theme: seriph
-class: prep-ambiente prep-divider text-center
+layout: image
+image: /portada.png
+class: prep-ambiente prep-cover text-center
 title: Preparación del ambiente de Python
 info: |
   ## Python · Visual Studio Code · GitHub
@@ -10,25 +12,24 @@ transition: slide-left
 mdc: true
 colorSchema: light
 hideInToc: true
-background: /portada.png
 themeConfig:
   primary: '#005187'
 ---
 
-<div class="prep-eyebrow" style="background: rgba(255,255,255,0.14); color: #fcffff;">Preparación del ambiente</div>
+<div class="prep-eyebrow">Preparación del ambiente</div>
 
-<div style="font-size: 34px; font-weight: 700; font-family: 'Poppins', sans-serif;">
+<div style="font-size: 34px; font-weight: 700; font-family: 'Poppins', sans-serif; color: #0a3357;">
   Configuración del entorno de Python
 </div>
 
 <div class="prep-subtitle">Python · Visual Studio Code · GitHub</div>
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+<div @click="$slidev.nav.next" class="prep-nav-hint mt-12 py-1">
   Presiona espacio para avanzar <carbon:arrow-right />
 </div>
 
-<div class="abs-br m-10">
-  <img src="/logos/footer-logos.png" class="h-10 opacity-95" />
+<div class="abs-bl m-10">
+  <img src="/logos/footer-logos.png" class="h-16 prep-logos" />
 </div>
 
 ---
